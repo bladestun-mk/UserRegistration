@@ -47,8 +47,8 @@ public class UserRegistrationMain {
         else
             return false;
     }
-    public static Boolean CheckPasswordRule1(String password) {
-        if(password.matches(".{8,}"))
+    public static Boolean CheckPasswordRule2(String password) {
+        if(password.matches("^(?=.*[A-Z]).{8,}$" ) )
             return true;
         else
             return false;
