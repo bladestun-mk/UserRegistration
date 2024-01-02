@@ -41,4 +41,10 @@ public class UserRegistrationMain {
         else
             return false;
     }
+    public static Boolean CheckPhone(String phone) {
+        if(phone.matches("((\\+*)((0[ -]*)*|((91 )*))((\\d{12})+|(\\d{10})+))|\\d{5}([- ]*)\\d{6}"))
+            return true;
+        else
+            return false;
+    }
 }

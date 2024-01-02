@@ -47,4 +47,10 @@ public class UserRegistrationTest {
         boolean actual = ur.CheckEmail("abc.xyz@bl.co.in");
         Assert.assertTrue(actual);
     }
+    @Test
+    public void testValidPhone() {
+        UserRegistrationMain ur = new UserRegistrationMain();
+        boolean actual = ur.CheckPhone("91 9919819801");
+        Assert.assertTrue(actual);
+    }
 }
