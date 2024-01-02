@@ -47,4 +47,10 @@ public class UserRegistrationMain {
         else
             return false;
     }
+    public static Boolean CheckPasswordRule1(String password) {
+        if(password.matches(".{8,}"))
+            return true;
+        else
+            return false;
+    }
 }

@@ -53,4 +53,10 @@ public class UserRegistrationTest {
         boolean actual = ur.CheckPhone("91 9919819801");
         Assert.assertTrue(actual);
     }
+    @Test
+    public void testValidPasswordRule1() {
+        UserRegistrationMain ur = new UserRegistrationMain();
+        boolean actual = ur.CheckPasswordRule1("maheshdalle");
+        Assert.assertTrue(actual);
+    }
 }
