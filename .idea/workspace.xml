@@ -33,21 +33,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.UserRegistrationTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.testInvalidFirstName.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.testValidFirstName.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.UserRegistrationTest.executor": "Run",
+    "JUnit.UserRegistrationTest.testEmail.executor": "Run",
+    "JUnit.UserRegistrationTest.testInvalidFirstName.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidFirstName.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.UserRegistrationTest">
+}]]></component>
+  <component name="RunManager" selected="JUnit.UserRegistrationTest.testEmail">
     <configuration name="UserRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration" />
       <extension name="coverage">
@@ -59,6 +60,22 @@
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTest.testEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegistration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
+      <option name="METHOD_NAME" value="testEmail" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRegistrationTest.testEmail" />
         <item itemvalue="JUnit.UserRegistrationTest" />
         <item itemvalue="JUnit.UserRegistrationTest.testInvalidFirstName" />
         <item itemvalue="JUnit.UserRegistrationTest.testValidFirstName" />

@@ -34,5 +34,11 @@ public class UserRegistrationMain {
             return false;
         }
     }
-
+    public static Boolean CheckEmail(String email) {
+        if(email.matches("^[a-zA-Z0-9_+&*-]+(?:\\."+ "[a-zA-Z0-9_+&*-]+)*@" +
+                "(?:[a-zA-Z0-9-]+\\.)+[a-z" + "A-Z]{2,7}$"))
+            return true;
+        else
+            return false;
+    }
 }

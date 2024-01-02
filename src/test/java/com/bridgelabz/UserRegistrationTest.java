@@ -41,4 +41,10 @@ public class UserRegistrationTest {
         actual = ur.analyseFName("kumar");
         Assert.assertFalse(actual);
     }
+    @Test
+    public void testEmail() {
+        UserRegistrationMain ur = new UserRegistrationMain();
+        boolean actual = ur.CheckEmail("abc.xyz@bl.co.in");
+        Assert.assertTrue(actual);
+    }
 }
