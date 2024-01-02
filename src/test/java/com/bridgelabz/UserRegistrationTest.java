@@ -8,19 +8,37 @@ public class UserRegistrationTest {
 
     @Test
     public void testValidFirstName() {
-        ur = new UserRegistrationMain("Mrinal");
-        boolean actual = ur.analyseFName();
+        ur = new UserRegistrationMain();
+        boolean actual = ur.analyseFName("Mrinal");
         Assert.assertTrue(actual);
     }
 
     @Test
     public void testInvalidFirstName() {
-        ur = new UserRegistrationMain("mo");//less than 3 character
-        boolean actual = ur.analyseFName();
+        ur = new UserRegistrationMain();//less than 3 character
+        boolean actual = ur.analyseFName("mo");
         Assert.assertFalse(actual);
 
-        ur = new UserRegistrationMain("mohan"); // Doesn't start with an uppercase letter
-        actual = ur.analyseFName();
+       // Doesn't start with an uppercase letter
+        actual = ur.analyseFName("mohan");
+        Assert.assertFalse(actual);
+    }
+
+    @Test
+    public void testValidLastName(){
+        ur = new UserRegistrationMain();
+        boolean actual = ur.analyseFName("Keshav");
+        Assert.assertTrue(actual);
+    }
+
+    @Test
+    public void testInvalidLastName() {
+        ur = new UserRegistrationMain();//less than 3 character
+        boolean actual = ur.analyseFName("om");
+        Assert.assertFalse(actual);
+
+        // Doesn't start with an uppercase letter
+        actual = ur.analyseFName("kumar");
         Assert.assertFalse(actual);
     }
 }
