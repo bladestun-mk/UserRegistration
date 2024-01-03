@@ -54,9 +54,10 @@ public class UserRegistrationTest {
         Assert.assertTrue(actual);
     }
     @Test
-    public void testValidPasswordRule3() {
+    public void testValidPasswordRule4() {
         UserRegistrationMain ur = new UserRegistrationMain();
-        boolean actual = ur.CheckPasswordRule3("maHeshdalle25");
+        boolean actual = ur.CheckPasswordRule4("maHeshdalle@2");
         Assert.assertTrue(actual);
     }
+
 }
