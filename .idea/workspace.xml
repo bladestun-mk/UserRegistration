@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4300ffae-0502-424c-b894-5306106a1fba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/UserRegistrationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/UserRegistrationMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/UserRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/UserRegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +50,7 @@
     "JUnit.UserRegistrationTest.testValidPasswordRule3.executor": "Run",
     "JUnit.UserRegistrationTest.testValidPasswordRule4.executor": "Run",
     "JUnit.UserRegistrationTest.testValidPhone.executor": "Run",
+    "JUnit.UserRegistrationTest.validateEmailsUsingParameterizedTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
@@ -61,7 +60,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.UserRegistrationTest.checkHappyOrSadUsingParameterizedTest">
+  <component name="RunManager" selected="JUnit.UserRegistrationTest.validateEmailsUsingParameterizedTest">
     <configuration name="UserRegistrationTest.checkHappyOrSadUsingParameterizedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration" />
       <extension name="coverage">
@@ -73,22 +72,6 @@
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
       <option name="METHOD_NAME" value="checkHappyOrSadUsingParameterizedTest(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRegistrationTest.testValidEmail6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UserRegistration" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bridgelabz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bridgelabz" />
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="testValidEmail6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,13 +125,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserRegistrationTest.validateEmailsUsingParameterizedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegistration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
+      <option name="METHOD_NAME" value="validateEmailsUsingParameterizedTest(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRegistrationTest.validateEmailsUsingParameterizedTest" />
         <item itemvalue="JUnit.UserRegistrationTest.checkHappyOrSadUsingParameterizedTest" />
         <item itemvalue="JUnit.UserRegistrationTest.testValidEmail9" />
         <item itemvalue="JUnit.UserRegistrationTest.testValidEmail8" />
         <item itemvalue="JUnit.UserRegistrationTest.testValidEmail7" />
-        <item itemvalue="JUnit.UserRegistrationTest.testValidEmail6" />
       </list>
     </recent_temporary>
   </component>

@@ -122,4 +122,12 @@ public class UserRegistrationTest {
         String res = ur.analyseMood(mood);
         Assert.assertEquals("Happy",res);
     }
+    @ParameterizedTest
+    @ValueSource(strings = {"abc@yahoo.com","abc-100@yahoo.com","abc.100@yahoo.com","abc111@abc.com","abc-100@abc.net",
+            "abc","abc123@.com","abc.@gmail.com","abc123@.com.com","abc@gmail.a"})
+    public void validateEmailsUsingParameterizedTest(String emails){
+        UserRegistrationMain ur = new UserRegistrationMain();
+        Boolean actual = ur.CheckEmail(emails);
+        Assert.assertTrue(actual);
+    }
 }
