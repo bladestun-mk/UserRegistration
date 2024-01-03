@@ -53,4 +53,10 @@ public class UserRegistrationMain {
         else
             return false;
     }
+    public String analyseMood(String msg){
+        if(msg.contains("Sad")) {
+            return "SAD";
+        }
+        return "Happy";
+    }
 }

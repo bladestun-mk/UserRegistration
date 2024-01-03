@@ -2,6 +2,8 @@ package com.bridgelabz;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 public class UserRegistrationTest {
     UserRegistrationMain ur;
@@ -112,5 +114,12 @@ public class UserRegistrationTest {
         UserRegistrationMain ur = new UserRegistrationMain();
         boolean actual = ur.CheckEmail("abc+100@gmail.com");
         Assert.assertTrue(actual);
+    }
+    @ParameterizedTest
+    @ValueSource(strings = {"I am in Happy Mood","I am in Sad Mood"})
+    public void checkHappyOrSadUsingParameterizedTest(String mood){
+        UserRegistrationMain ur = new UserRegistrationMain();
+        String res = ur.analyseMood(mood);
+        Assert.assertEquals("Happy",res);
     }
 }

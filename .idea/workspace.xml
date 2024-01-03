@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4300ffae-0502-424c-b894-5306106a1fba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/UserRegistrationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/UserRegistrationMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/UserRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/UserRegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.UserRegistrationTest.checkHappyOrSadUsingParameterizedTest.executor": "Run",
     "JUnit.UserRegistrationTest.executor": "Run",
     "JUnit.UserRegistrationTest.testEmail.executor": "Run",
     "JUnit.UserRegistrationTest.testInvalidFirstName.executor": "Run",
@@ -59,8 +61,8 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.UserRegistrationTest.testValidEmail9">
-    <configuration name="UserRegistrationTest.testValidEmail5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserRegistrationTest.checkHappyOrSadUsingParameterizedTest">
+    <configuration name="UserRegistrationTest.checkHappyOrSadUsingParameterizedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration" />
       <extension name="coverage">
         <pattern>
@@ -70,7 +72,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="testValidEmail5" />
+      <option name="METHOD_NAME" value="checkHappyOrSadUsingParameterizedTest(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRegistrationTest.checkHappyOrSadUsingParameterizedTest" />
         <item itemvalue="JUnit.UserRegistrationTest.testValidEmail9" />
         <item itemvalue="JUnit.UserRegistrationTest.testValidEmail8" />
         <item itemvalue="JUnit.UserRegistrationTest.testValidEmail7" />
         <item itemvalue="JUnit.UserRegistrationTest.testValidEmail6" />
-        <item itemvalue="JUnit.UserRegistrationTest.testValidEmail5" />
       </list>
     </recent_temporary>
   </component>
