@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4300ffae-0502-424c-b894-5306106a1fba" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/UserRegistrationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/UserRegistrationMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/UserRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/UserRegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +38,12 @@
     "JUnit.UserRegistrationTest.testEmail.executor": "Run",
     "JUnit.UserRegistrationTest.testInvalidFirstName.executor": "Run",
     "JUnit.UserRegistrationTest.testValidEmail1.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidEmail3.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidEmail4.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidEmail5.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidEmail6.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidEmail7.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidEmail8.executor": "Run",
     "JUnit.UserRegistrationTest.testValidFirstName.executor": "Run",
     "JUnit.UserRegistrationTest.testValidPassword.executor": "Run",
     "JUnit.UserRegistrationTest.testValidPasswordRule1.executor": "Run",
@@ -54,8 +59,8 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.UserRegistrationTest.testValidEmail2">
-    <configuration name="UserRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserRegistrationTest.testValidEmail9">
+    <configuration name="UserRegistrationTest.testValidEmail5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration" />
       <extension name="coverage">
         <pattern>
@@ -65,28 +70,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRegistrationTest.testValidEmail1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UserRegistration" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bridgelabz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bridgelabz" />
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="testValidEmail1" />
+      <option name="METHOD_NAME" value="testValidEmail5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTest.testValidEmail2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRegistrationTest.testValidEmail6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration" />
       <extension name="coverage">
         <pattern>
@@ -96,13 +86,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="testValidEmail2" />
+      <option name="METHOD_NAME" value="testValidEmail6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTest.testValidPasswordRule3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRegistrationTest.testValidEmail7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration" />
       <extension name="coverage">
         <pattern>
@@ -112,13 +102,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="testValidPasswordRule3" />
+      <option name="METHOD_NAME" value="testValidEmail7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTest.testValidPasswordRule4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRegistrationTest.testValidEmail8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration" />
       <extension name="coverage">
         <pattern>
@@ -128,7 +118,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="testValidPasswordRule4" />
+      <option name="METHOD_NAME" value="testValidEmail8" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTest.testValidEmail9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegistration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
+      <option name="METHOD_NAME" value="testValidEmail9" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserRegistrationTest.testValidEmail2" />
-        <item itemvalue="JUnit.UserRegistrationTest.testValidEmail1" />
-        <item itemvalue="JUnit.UserRegistrationTest.testValidPasswordRule4" />
-        <item itemvalue="JUnit.UserRegistrationTest.testValidPasswordRule3" />
-        <item itemvalue="JUnit.UserRegistrationTest" />
+        <item itemvalue="JUnit.UserRegistrationTest.testValidEmail9" />
+        <item itemvalue="JUnit.UserRegistrationTest.testValidEmail8" />
+        <item itemvalue="JUnit.UserRegistrationTest.testValidEmail7" />
+        <item itemvalue="JUnit.UserRegistrationTest.testValidEmail6" />
+        <item itemvalue="JUnit.UserRegistrationTest.testValidEmail5" />
       </list>
     </recent_temporary>
   </component>

@@ -59,5 +59,58 @@ public class UserRegistrationTest {
         boolean actual = ur.CheckPasswordRule4("maHeshdalle@2");
         Assert.assertTrue(actual);
     }
-
+    @Test
+    public void testValidEmail1() {
+        UserRegistrationMain ur = new UserRegistrationMain();
+        boolean actual = ur.CheckEmail("abc@yahoo.com");
+        Assert.assertTrue(actual);
+    }
+    @Test
+    public void testValidEmail2() {
+        UserRegistrationMain ur = new UserRegistrationMain();
+        boolean actual = ur.CheckEmail("abc-100@yahoo.com");
+        Assert.assertTrue(actual);
+    }
+    @Test
+    public void testValidEmail3() {
+        UserRegistrationMain ur = new UserRegistrationMain();
+        boolean actual = ur.CheckEmail("abc.100@yahoo.com");
+        Assert.assertTrue(actual);
+    }
+    @Test
+    public void testValidEmail4() {
+        UserRegistrationMain ur = new UserRegistrationMain();
+        boolean actual = ur.CheckEmail("abc111@abc.com");
+        Assert.assertTrue(actual);
+    }
+    @Test
+    public void testValidEmail5() {
+        UserRegistrationMain ur = new UserRegistrationMain();
+        boolean actual = ur.CheckEmail("abc-100@abc.net");
+        Assert.assertTrue(actual);
+    }
+    @Test
+    public void testValidEmail6() {
+        UserRegistrationMain ur = new UserRegistrationMain();
+        boolean actual = ur.CheckEmail("abc.100@abc.com.au");
+        Assert.assertTrue(actual);
+    }
+    @Test
+    public void testValidEmail7() {
+        UserRegistrationMain ur = new UserRegistrationMain();
+        boolean actual = ur.CheckEmail("abc@1.com");
+        Assert.assertTrue(actual);
+    }
+    @Test
+    public void testValidEmail8() {
+        UserRegistrationMain ur = new UserRegistrationMain();
+        boolean actual = ur.CheckEmail("abc@gmail.com.com");
+        Assert.assertTrue(actual);
+    }
+    @Test
+    public void testValidEmail9() {
+        UserRegistrationMain ur = new UserRegistrationMain();
+        boolean actual = ur.CheckEmail("abc+100@gmail.com");
+        Assert.assertTrue(actual);
+    }
 }
