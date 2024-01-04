@@ -1,62 +1,64 @@
 package com.bridgelabz;
 
 public class UserRegistrationMain {
-    private String fname;
-    private String lname;
+    private String fname, lname, email, phone, password, msg;
 
-    public String getFname() {
-        return fname;
-    }
 
-    public String getLname() {
-        return lname;
-    }
-
-    public void setFname(String fname) {
-        this.fname = fname;
-    }
-
-    public void setLname(String lname) {
-        this.lname = lname;
-    }
-
-    public boolean analyseFName(String fname) {
+    public static boolean analyseFName(String fname) throws InvalidUserDetailsException {
         if (fname.matches("[A-Z][a-zA-Z]{2,}")) {
             return true;
-        } else {
-            return false;
-        }
+        } else
+            throw new InvalidUserDetailsException("Invalid first name");
     }
-    public boolean analyseLName(String lname) {
+
+    public static boolean analyseLName(String lname) throws InvalidUserDetailsException {
         if (lname.matches("[A-Z][a-zA-Z]{2,}")) {
             return true;
         } else {
-            return false;
+            throw new InvalidUserDetailsException("Invalid last name");
         }
     }
-    public static Boolean CheckEmail(String email) {
-        if(email.matches("^[a-zA-Z0-9_+&*-]+(?:\\."+ "[a-zA-Z0-9_+&*-]+)*@" +
-                "(?:[a-zA-Z0-9-]+\\.)+[a-z" + "A-Z]{2,7}$"))
+
+    public static boolean CheckEmail(String email) throws InvalidUserDetailsException {
+        if (email.matches("^[a-zA-Z0-9_+&*-]+(?:\\." + "[a-zA-Z0-9_+&*-]+)*@" +
+                "(?:[a-zA-Z0-9-]+\\.)+[a-z" + "A-Z]{2,7}$")) {
             return true;
-        else
-            return false;
+        } else {
+            throw new InvalidUserDetailsException("Invalid email address");
+        }
     }
-    public static Boolean CheckPhone(String phone) {
-        if(phone.matches("((\\+*)((0[ -]*)*|((91 )*))((\\d{12})+|(\\d{10})+))|\\d{5}([- ]*)\\d{6}"))
+
+    public static boolean CheckPhone(String phone) throws InvalidUserDetailsException {
+        if (phone.matches("((\\+*)((0[ -]*)*|((91 )*))((\\d{12})+|(\\d{10})+))|\\d{5}([- ]*)\\d{6}")) {
             return true;
-        else
-            return false;
+        } else {
+            throw new InvalidUserDetailsException("Invalid phone number");
+        }
     }
-    public static Boolean CheckPasswordRule4(String password) {
-        if(password.matches("^(?=.{8,}$)(?=.*[A-Z])(?=.*[0-9])([a-zA-Z0-9]*)[^a-zA-Z0-9]([a-zA-Z0-9]*)$" ) )
+
+    public static boolean CheckPasswordRule4(String password) throws InvalidUserDetailsException {
+        if (password.matches("^(?=.{8,}$)(?=.*[A-Z])(?=.*[0-9])([a-zA-Z0-9]*)[^a-zA-Z0-9]([a-zA-Z0-9]*)$")) {
             return true;
-        else
-            return false;
+        } else {
+            throw new InvalidUserDetailsException("Invalid password");
+        }
     }
-    public String analyseMood(String msg){
-        if(msg.contains("Sad")) {
+
+    public String analyseMood(String msg) {
+        if (msg.contains("Sad")) {
             return "SAD";
         }
         return "Happy";
     }
+
+    public static class InvalidUserDetailsException extends Exception {
+        public InvalidUserDetailsException(String message) {
+            super(message);
+        }
+    }
+
+
 }
+
+
+
