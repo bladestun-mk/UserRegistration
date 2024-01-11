@@ -7,7 +7,6 @@
     <list default="true" id="4300ffae-0502-424c-b894-5306106a1fba" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/UserRegistrationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/UserRegistrationMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/UserRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/UserRegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,35 +32,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.UserRegistrationTest.checkHappyOrSadUsingParameterizedTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.testEmail.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.testInvalidFirstName.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.testValidEmail1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.testValidEmail3.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.testValidEmail4.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.testValidEmail5.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.testValidEmail6.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.testValidEmail7.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.testValidEmail8.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.testValidFirstName.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.testValidPassword.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.testValidPasswordRule1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.testValidPasswordRule3.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.testValidPasswordRule4.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.testValidPhone.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.validateEmailsUsingParameterizedTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.UserRegistrationTest.checkHappyOrSadUsingParameterizedTest.executor": "Run",
+    "JUnit.UserRegistrationTest.executor": "Run",
+    "JUnit.UserRegistrationTest.testEmail.executor": "Run",
+    "JUnit.UserRegistrationTest.testInvalidFirstName.executor": "Run",
+    "JUnit.UserRegistrationTest.testInvalidLastName.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidEmail1.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidEmail3.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidEmail4.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidEmail5.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidEmail6.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidEmail7.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidEmail8.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidFirstName.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidLastName.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidPassword.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidPasswordRule1.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidPasswordRule3.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidPasswordRule4.executor": "Run",
+    "JUnit.UserRegistrationTest.testValidPhone.executor": "Run",
+    "JUnit.UserRegistrationTest.validateEmailsUsingParameterizedTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.UserRegistrationTest">
     <configuration name="UserRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration" />
@@ -78,7 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTest.checkHappyOrSadUsingParameterizedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRegistrationTest.testInvalidFirstName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration" />
       <extension name="coverage">
         <pattern>
@@ -88,13 +89,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="checkHappyOrSadUsingParameterizedTest(java.lang.String)" />
+      <option name="METHOD_NAME" value="testInvalidFirstName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTest.testValidEmail9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRegistrationTest.testInvalidLastName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration" />
       <extension name="coverage">
         <pattern>
@@ -104,7 +105,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="testValidEmail9" />
+      <option name="METHOD_NAME" value="testInvalidLastName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTest.validateEmailsUsingParameterizedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRegistrationTest.testValidLastName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration" />
       <extension name="coverage">
         <pattern>
@@ -136,7 +137,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="validateEmailsUsingParameterizedTest(java.lang.String)" />
+      <option name="METHOD_NAME" value="testValidLastName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,10 +146,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserRegistrationTest" />
-        <item itemvalue="JUnit.UserRegistrationTest.checkHappyOrSadUsingParameterizedTest" />
-        <item itemvalue="JUnit.UserRegistrationTest.validateEmailsUsingParameterizedTest" />
+        <item itemvalue="JUnit.UserRegistrationTest.testInvalidLastName" />
+        <item itemvalue="JUnit.UserRegistrationTest.testValidLastName" />
+        <item itemvalue="JUnit.UserRegistrationTest.testInvalidFirstName" />
         <item itemvalue="JUnit.UserRegistrationTest.testValidFirstName" />
-        <item itemvalue="JUnit.UserRegistrationTest.testValidEmail9" />
       </list>
     </recent_temporary>
   </component>
